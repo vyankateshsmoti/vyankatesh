@@ -1,0 +1,29 @@
+body {
+    font-family: bodoni, serif;
+    background-color: lightblue;
+  }
+
+.header{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    border-style: double; 
+}
+.menu{
+    background-color: lightcoral;
+    border-style:dashed;
+}
+.item{
+    display: flex;
+    flex-grow: 100;
+    flex-direction: column;
+    align-content: stretch;
+
+    
+}
+.img-container{
+    text-align: center;
+}
+h2,h3,ul{
+    text-align: center;
+}
